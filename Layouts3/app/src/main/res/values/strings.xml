@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Layouts3</string>
+
+    <string name="produktua">Produktua</string>
+    <string name="azpitotala">Azpitotala</string>
+
+    <string name="eskuetako_xaboia">Eskuetako xaboia x 1</string>
+    <string name="xanpua">Monster xanpua x 1</string>
+    <string name="pastak">Duria pasta x 2</string>
+    <string name="detergentea">Limpiadin detergentea x 1</string>
+
+    <string name="prezioa_2">$2</string>
+    <string name="prezioa_10">$10</string>
+    <string name="prezioa_18">$18</string>
+    <string name="prezioa_13_4">$13,4</string>
+
+    <string name="bidalketa_kostua">Bidalketa-kostua</string>
+    <string name="kupoia">Kupoia</string>
+    <string name="guztira">Guztira</string>
+
+    <string name="prezioa_43_4">$43,4</string>
+    <string name="prezioa_menos_5">-$5</string>
+    <string name="prezioa_48_4">$48,4</string>
+
+</resources>

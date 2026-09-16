@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:background="#128675">
+
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="@string/produktua"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dp"
+            android:text="@string/azpitotala"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="@string/eskuetako_xaboia" />
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dp"
+            android:text="@string/prezioa_2" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="@string/xanpua" />
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dp"
+            android:text="@string/prezioa_10" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="@string/pastak" />
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dp"
+            android:text="@string/prezioa_18" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="@string/detergentea" />
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dp"
+            android:text="@string/prezioa_13_4" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dp"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="@string/azpitotala"
+            android:textColor="#128675" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="end"
+            android:padding="3dp"
+            android:text="@string/prezioa_43_4" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="@string/bidalketa_kostua"
+            android:textColor="#128675" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="end"
+            android:padding="3dp"
+            android:text="@string/prezioa_10" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="@string/kupoia"
+            android:textColor="#128675" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="end"
+            android:padding="3dp"
+            android:text="@string/prezioa_menos_5" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="@string/guztira"
+            android:textColor="#128675" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="end"
+            android:padding="3dp"
+            android:text="@string/prezioa_48_4" />
+    </TableRow>
+
+</TableLayout>
