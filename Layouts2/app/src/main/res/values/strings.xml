@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Layouts2</string>
+
+    <string name="konektatu">Konektatu</string>
+    <string name="posta_elektronikoa">Posta elektronikoa</string>
+    <string name="pasahitza">Pasahitza</string>
+    <string name="saioa_hasi">Saioa hasi</string>
+    <string name="pasahitza_ahaztu">Pasahitza ahaztu duzu?</string>
+</resources>
