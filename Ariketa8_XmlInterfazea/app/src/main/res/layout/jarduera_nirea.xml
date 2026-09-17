@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/niretestua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nire testua"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/nireizena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nire izena"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/nire_botoia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sakatu"
+        android:backgroundTint="@android:color/holo_red_dark" />
+
+</LinearLayout>
