@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/nire_datuak"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editIzena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/izena"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editAbizena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/abizena"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editHelbidea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/helbidea"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editPostaKodea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/posta_kodea"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editEmaila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emaila"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editPasahitza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pasahitza"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTelefonoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefonoa"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editPina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pina"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/editLanEsperientzia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/lan_esperientzia"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bidaliButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bidali" />
+
+        <Button
+            android:id="@+id/irtenButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/irten" />
+
+    </LinearLayout>
+
+</LinearLayout>

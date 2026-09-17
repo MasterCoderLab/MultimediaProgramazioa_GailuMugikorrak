@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestuSarrera</string>
+
+    <string name="nire_datuak">NIRE DATUAK</string>
+
+    <string name="izena">Izena</string>
+    <string name="abizena">Abizena</string>
+    <string name="helbidea">Helbidea</string>
+    <string name="posta_kodea">Posta-kodea</string>
+    <string name="emaila">E-maila</string>
+    <string name="pasahitza">Pasahitza</string>
+    <string name="telefonoa">Telefonoa</string>
+    <string name="pina">PINa</string>
+    <string name="lan_esperientzia">Lan-esperientzia</string>
+
+    <string name="bidali">BIDALI</string>
+    <string name="irten">IRTEN</string>
+
+</resources>
