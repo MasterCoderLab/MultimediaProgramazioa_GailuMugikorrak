@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Asteroideak</string>
+
+    <string name="titulo_aplicacion">Asteroideak</string>
+    <string name="arrancar">Jolastu</string>
+    <string name="configurar">Konfiguratu</string>
+    <string name="acercade">Honi buruz</string>
+    <string name="salir">Irten</string>
+
+    <string name="action_settings">Konfigurazioa</string>
+</resources>
