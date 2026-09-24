@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Nire Lekuak</string>
+
+    <string name="etiketa_izena">Nombre:</string>
+    <string name="hint_izena">algo que identifique el lugar</string>
+
+    <string name="etiketa_mota">Tipo:</string>
+
+    <string name="etiketa_helbidea">Dirección:</string>
+    <string name="hint_helbidea">dirección del lugar</string>
+
+    <string name="etiketa_telefonoa">Teléfono:</string>
+    <string name="hint_telefonoa">teléfono para contactar</string>
+
+    <string name="etiketa_url">Url:</string>
+    <string name="hint_url">página web</string>
+
+    <string name="etiketa_iruzkina">Comentario:</string>
+    <string name="hint_iruzkina">introduce tus notas</string>
+
+</resources>
