@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EstiloBoton">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EstiloBoton.Alternatiboa">
+        <item name="android:textStyle">italic</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+</resources>
