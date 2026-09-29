@@ -19,4 +19,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/entrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Sartu zenbaki bat"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="45dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
