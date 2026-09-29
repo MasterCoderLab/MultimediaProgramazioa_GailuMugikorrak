@@ -2,6 +2,8 @@ package com.ikasle.masvistas;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -11,6 +13,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MasVistasActivity extends AppCompatActivity {
+
+    private EditText entrada;
+    private TextView salida;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
