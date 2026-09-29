@@ -9,6 +9,11 @@
     android:background="#FFFFFF"
     tools:context=".MasVistasActivity">
 
+    <!--
+        Zenbakizko sarrera-eremua.
+        Erabiltzaileak zenbaki hamartar bat sartzeko erabiltzen da.
+        "entrada" id-aren bidez Java kodetik atzitu ahal izango dugu.
+    -->
     <EditText
         android:id="@+id/entrada"
         android:layout_width="wrap_content"
@@ -22,6 +27,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--
+        "0" zenbakia sartzeko botoia.
+        sePulsa0 metodoa exekutatzen du eta tag atributuan
+        botoiak ordezkatzen duen balioa gordetzen du.
+    -->
     <Button
         android:id="@+id/button0"
         android:layout_width="0dp"
@@ -29,10 +39,16 @@
         android:layout_marginTop="177dp"
         android:text="0"
         android:onClick="sePulsa0"
+        android:tag="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--
+        Aurreko ariketatik heredatutako botoi grafikoa.
+        Sakatu, fokua eta egoera normala botoia.xml selector-ak kudeatzen ditu.
+        sePulsa metodoa exekutatzen du sakatzean.
+    -->
     <ImageButton
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -45,6 +61,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--
+        Eragiketaren emaitza erakusteko TextView-a.
+        Java kodetik "salida" id-aren bidez aldatuko da.
+    -->
     <TextView
         android:id="@+id/salida"
         android:layout_width="wrap_content"
