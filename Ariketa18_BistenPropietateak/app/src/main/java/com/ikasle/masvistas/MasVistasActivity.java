@@ -36,4 +36,8 @@ public class MasVistasActivity extends AppCompatActivity {
     public void sePulsa(View view) {
         Toast.makeText(this, "Pulsado", Toast.LENGTH_SHORT).show();
     }
+
+    public void sePulsa0(View view) {
+        entrada.setText(entrada.getText() + "0");
+    }
 }
