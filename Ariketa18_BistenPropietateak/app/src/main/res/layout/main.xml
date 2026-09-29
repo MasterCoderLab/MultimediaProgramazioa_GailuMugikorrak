@@ -9,24 +9,39 @@
     android:background="#FFFFFF"
     tools:context=".MasVistasActivity">
 
+    <EditText
+        android:id="@+id/entrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="Sartu zenbaki bat"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="177dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageButton
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="292dp"
         android:background="@drawable/botoia"
         android:contentDescription="@string/botoia_description"
         android:onClick="sePulsa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/entrada"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Sartu zenbaki bat"
-        android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="45dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
