@@ -28,6 +28,9 @@ public class MasVistasActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        entrada = (EditText) findViewById(R.id.entrada);
+        salida = (TextView) findViewById(R.id.salida);
     }
 
     public void sePulsa(View view) {
