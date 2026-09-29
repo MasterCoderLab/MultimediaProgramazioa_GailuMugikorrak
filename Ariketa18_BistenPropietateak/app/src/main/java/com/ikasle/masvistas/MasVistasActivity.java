@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,11 +15,11 @@ import androidx.core.view.WindowInsetsCompat;
  * MasVistas aplikazioaren jarduera nagusia.
  *
  * <p>Klase honek main.xml fitxategian definitutako bistak kudeatzen ditu.
- * Erabiltzaileak zenbaki bat sar dezake, botoien bidez balioak gehitu
- * eta ondoren emaitza bat pantailan erakutsi.</p>
+ * Erabiltzaileak zenbaki bat sar dezake, zenbakizko botoien bidez balioak
+ * gehitu eta botoi grafikoa sakatzean sartutako balioa bider bi kalkulatu.</p>
  *
- * <p>Ariketa honetan findViewById(), listener-ak, tag atributua
- * eta type cast kontzeptuak lantzen dira.</p>
+ * <p>Ariketa honetan findViewById(), listener-ak, tag atributua,
+ * type cast-ak eta String/Float bihurketak lantzen dira.</p>
  */
 public class MasVistasActivity extends AppCompatActivity {
 
@@ -30,7 +29,7 @@ public class MasVistasActivity extends AppCompatActivity {
     private EditText entrada;
 
     /**
-     * Eragiketaren emaitza erakusteko erabiltzen den TextView-a.
+     * Kalkulatutako emaitza erakusteko erabiltzen den TextView-a.
      */
     private TextView salida;
 
@@ -73,7 +72,7 @@ public class MasVistasActivity extends AppCompatActivity {
 
         /*
          * XML-ko bistak Java objektuekin lotzen dira.
-         * PDFak type cast-a lantzen duenez, (EditText) eta (TextView)
+         * Ariketak type cast-a lantzen duenez, (EditText) eta (TextView)
          * bihurketak mantentzen dira.
          */
         entrada = (EditText) findViewById(R.id.entrada);
@@ -83,13 +82,18 @@ public class MasVistasActivity extends AppCompatActivity {
     /**
      * Botoi grafikoa sakatzean exekutatzen den listener-a.
      *
-     * <p>Une honetan aurreko ariketako portaera mantentzen du
-     * eta "Pulsado" mezua duen Toast bat erakusten du.</p>
+     * <p>entrada eremuko testua String bihurtzen da, ondoren Float
+     * zenbakira pasatzen da eta bider bi egiten da. Azken emaitza berriro
+     * String bihurtzen da salida TextView-an erakutsi ahal izateko.</p>
      *
      * @param view klik-gertaera sortu duen bista
      */
     public void sePulsa(View view) {
-        Toast.makeText(this, "Pulsado", Toast.LENGTH_SHORT).show();
+        salida.setText(
+                String.valueOf(
+                        Float.parseFloat(entrada.getText().toString()) * 2.0
+                )
+        );
     }
 
     /**
