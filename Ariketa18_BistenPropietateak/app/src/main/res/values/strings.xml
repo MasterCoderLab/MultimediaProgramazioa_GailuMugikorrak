@@ -1,4 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Aplikazioaren izena. -->
     <string name="app_name">MasVistas</string>
+
+    <!-- Botoi grafikoaren irisgarritasun-deskribapena. -->
     <string name="botoia_description">Botoi grafikoa</string>
+
+    <!-- Erabiltzaileak zenbakia sartzeko eremuaren laguntza-testua. -->
+    <string name="entrada_hint">Sartu zenbaki bat</string>
+
+    <!-- Zenbakizko botoiak erakusten duen testua. -->
+    <string name="button0_text">0</string>
+
+    <!-- Kalkuluaren emaitza erakutsiko den eremuaren laguntza-testua. -->
+    <string name="salida_hint">Emaitza</string>
+
 </resources>

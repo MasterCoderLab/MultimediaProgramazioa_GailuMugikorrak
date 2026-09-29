@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Botoi grafikoaren egoerak definitzen dituen selector-a.
+
+    Selector honen bidez ImageButton-ak irudi desberdin bat
+    erakusten du bere egoeraren arabera:
+    - sakatuta dagoenean,
+    - fokua duenean,
+    - egoera normalean dagoenean.
+
+    Item-en ordena garrantzitsua da, Android-ek goitik behera
+    ebaluatzen baititu baldintzak.
+-->
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--
+        Botoia sakatuta dagoenean erabiltzen den irudia.
+        state_pressed=true baldintza betetzen denean aplikatzen da.
+    -->
     <item
         android:drawable="@drawable/boton_pulsado"
         android:state_pressed="true" />
 
+    <!--
+        Botoiak fokua duenean erabiltzen den irudia.
+        Adibidez, teklatuaren Tab edo norabide-teklen bidez hautatzen denean.
+    -->
     <item
         android:drawable="@drawable/boton_con_foco"
         android:state_focused="true" />
 
+    <!--
+        Botoiaren egoera normala.
+        Aurreko baldintzak betetzen ez direnean erabiltzen da.
+    -->
     <item
         android:drawable="@drawable/boton_normal" />
 
