@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Aplikazioaren izena. -->
+    <string name="app_name">Constraint Adibidea</string>
+
+    <!-- Paisaiaren irudiaren irisgarritasun-deskribapena. -->
+    <string name="paisaia_description">Munduko paisaia baten irudia</string>
+
+    <!-- Interfazearen testu nagusia. -->
+    <string name="izenburua">Paisajes del mundo</string>
+
+    <!-- Bozketa-botoien testuak. -->
+    <string name="botoi_positiboa">VOTO POSITIVO</string>
+    <string name="botoi_negatiboa">VOTO NEGATIVO</string>
+
+    <!-- Checkbox-aren irisgarritasun-testua. -->
+    <string name="checkbox_description">Paisaia hautatu</string>
+
+</resources>

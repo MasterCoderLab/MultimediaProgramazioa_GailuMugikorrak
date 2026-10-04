@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Constraint Layout adibidea.
+
+    Layout honetan hainbat bista constraint-en bidez kokatzen dira:
+    ImageView bat, CheckBox bat, TextView bat eta bi Button.
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!--
+        Pantailaren goiko aldean erakusten den paisaiaren irudia.
+        Zabalera osoa hartzen du eta altuera finko bat erabiltzen du.
+    -->
+    <ImageView
+        android:id="@+id/imagePaisaia"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:contentDescription="@string/paisaia_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/paisaia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--
+        Irudiaren beheko ezker aldean kokatutako CheckBox-a.
+        Moodleko adibidean CheckBox-a irudiaren gainean agertzen da.
+    -->
+    <CheckBox
+        android:id="@+id/checkPaisaia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/checkbox_description"
+        android:checked="true"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@id/imagePaisaia"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="-20dp" />
+
+    <!--
+        Paisaiaren azpian erakusten den izenburua.
+    -->
+    <TextView
+        android:id="@+id/textIzenburua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/izenburua"
+        android:textSize="22sp"
+        android:textColor="#666666"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagePaisaia" />
+
+    <!--
+        Bozketa positiboa egiteko botoia.
+    -->
+    <Button
+        android:id="@+id/buttonPositiboa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/botoi_positiboa"
+        app:layout_constraintEnd_toStartOf="@id/buttonNegatiboa"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textIzenburua" />
+
+    <!--
+        Bozketa negatiboa egiteko botoia.
+    -->
+    <Button
+        android:id="@+id/buttonNegatiboa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/botoi_negatiboa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonPositiboa"
+        app:layout_constraintTop_toTopOf="@id/buttonPositiboa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
