@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    MasVistas aplikazioaren layout nagusia.
+
+    ConstraintLayout erabiltzen da interfazeko bistak kokatzeko.
+    Ariketa honetan ImageButton pertsonalizatu bat erabiltzen da,
+    botoiaren egoeraren arabera irudi desberdinak erakusteko.
+-->
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,6 +17,14 @@
     android:background="#FFFFFF"
     tools:context=".MasVistasActivity">
 
+    <!--
+        Botoi grafiko pertsonalizatua.
+
+        @drawable/botoia selector-ak botoiaren irudia aldatzen du
+        egoeraren arabera: sakatuta, fokua duenean edo egoera normalean.
+
+        sePulsa metodoa exekutatzen da botoian klik egitean.
+    -->
     <ImageButton
         android:id="@+id/button1"
         android:layout_width="wrap_content"

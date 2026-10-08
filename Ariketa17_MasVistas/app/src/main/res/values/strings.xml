@@ -1,4 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
+
+    <!-- Aplikazioaren izena. -->
     <string name="app_name">MasVistas</string>
+
+    <!--
+        Botoi grafikoaren irisgarritasun-deskribapena.
+        TalkBack bezalako pantaila-irakurleek botoiaren funtzioa
+        identifikatzeko erabiltzen dute.
+    -->
     <string name="botoia_description">Botoi grafikoa</string>
+
 </resources>
