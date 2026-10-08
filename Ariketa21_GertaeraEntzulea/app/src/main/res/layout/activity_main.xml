@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Aplikazioaren jarduera nagusiaren interfazea.
+
+    Ariketa honetan botoiaren klik-gertaera ez da
+    android:onClick atributuaren bidez definitzen.
+
+    Gertaeraren entzulea MainActivity.java fitxategian
+    setOnClickListener() metodoaren bidez erregistratzen da.
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        "Acerca de..." jarduera irekitzeko botoia.
+        Klik-gertaera Java kodearen bidez kudeatzen da.
+    -->
+    <Button
+        android:id="@+id/botonAcercaDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acerca_de"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
