@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Aplikazioaren izena. -->
+    <string name="app_name">Ariketa20_Asteroideak</string>
+
+    <!-- "Acerca de..." jardueran bistaratuko den informazio-testua. -->
+    <string name="contenido">Este programa ha sido desarrollado como ejemplo en el curso de Android para demostrar cómo se pueden lanzar nuevas actividades desde la actividad principal.</string>
+
+</resources>

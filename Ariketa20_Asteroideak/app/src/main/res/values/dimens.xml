@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Aplikazioan erabilitako dimentsio-balioak gordetzen dituen fitxategia.
+-->
+<resources>
+
+    <!-- AcercaDeActivity-ko testuaren barne-marjina. -->
+    <dimen name="text_margin">10dp</dimen>
+
+</resources>
