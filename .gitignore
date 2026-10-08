@@ -4,3 +4,9 @@
 **/.gradle/
 **/build/
 local.properties
+
+# Android Studio - fitxategi lokalak
+**/.idea/
+**/.gradle/
+**/build/
+local.properties
