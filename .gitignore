@@ -1,0 +1,6 @@
+
+# Android Studio - fitxategi lokalak
+**/.idea/
+**/.gradle/
+**/build/
+local.properties
