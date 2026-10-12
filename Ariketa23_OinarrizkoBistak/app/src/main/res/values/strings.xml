@@ -1,0 +1,21 @@
+
+<resources>
+
+    <!-- Aplikazioaren izena eta interfazeko testuak. -->
+    <string name="app_name">Oinarrizko bistak</string>
+    <string name="hasierako_testua">Hasierako testua</string>
+    <string name="testu_berria">Testua kodetik editatzen dugu</string>
+    <string name="botoi_testua">Texto del botón</string>
+    <string name="check_testua">CheckBox</string>
+    <string name="radio_zero">RadioButton0</string>
+    <string name="radio_one">RadioButton1</string>
+    <string name="testua_idatzi">Idatzi testua</string>
+
+    <!-- Spinner elementuan erakutsiko diren aukerak. -->
+    <string-array name="spinner_aukerak">
+        <item>Lehen aukera</item>
+        <item>Bigarren aukera</item>
+        <item>Hirugarren aukera</item>
+    </string-array>
+
+</resources>
