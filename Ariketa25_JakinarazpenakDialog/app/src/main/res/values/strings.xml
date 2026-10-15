@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Moodleko aplikazio-izena. -->
+    <string name="app_name">Jakinarazpenak</string>
+
+    <!-- ZIPean agertzen diren lau botoien testuak. -->
+    <string name="botoi_alerta">Diálogo Alerta</string>
+    <string name="botoi_confirmacion">Diálogo Confirmación</string>
+    <string name="botoi_seleccion_simple">Diálogo Selección Simple</string>
+    <string name="botoi_seleccion_multiple">Diálogo Selección Multiple</string>
+
+    <!-- PDFko elkarrizketen izenburuak eta mezuak. -->
+    <string name="izenburu_alerta">Información</string>
+    <string name="mezua_alerta">Esto es un mensaje de alerta.</string>
+    <string name="izenburu_confirmacion">Confirmacion</string>
+    <string name="mezua_confirmacion">¿Confirma la acción seleccionada?</string>
+    <string name="izenburu_seleccion">Selección</string>
+</resources>
