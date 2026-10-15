@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Irakaslearen adibidearen antzeko interfazea.
+    Goiburua iluna da eta botoiak grisak dira.
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Egoera-barraren atzeko plano iluna. -->
+    <View
+        android:id="@+id/fondoBarraEstado"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="#101010" />
+
+    <!-- Android ikonoa eta aplikazioaren izenburua. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#222222"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp">
+
+        <!-- Android robot berdea. -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_android_robot"
+            android:contentDescription="@null" />
+
+        <!-- Aplikazioaren izenburua. -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Jatorrizko adibidearen menuaren irudia. -->
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="⋮"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:importantForAccessibility="no" />
+
+    </LinearLayout>
+
+    <!-- Hiru botoiak bertikalki kokatzen dira. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <!-- Toast lehenetsia. -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDefecto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/botoi_grisa"
+            android:backgroundTint="@null"
+            app:backgroundTint="@null"
+            android:text="@string/botoi_defecto"
+            android:textColor="#222222"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:stateListAnimator="@null" />
+
+        <!-- Kokapen pertsonalizatuko Toast. -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGravity"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/botoi_grisa"
+            android:backgroundTint="@null"
+            app:backgroundTint="@null"
+            android:text="@string/botoi_gravity"
+            android:textColor="#222222"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:stateListAnimator="@null" />
+
+        <!-- XML diseinuko Toast pertsonalizatua. -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLayout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/botoi_grisa"
+            android:backgroundTint="@null"
+            app:backgroundTint="@null"
+            android:text="@string/botoi_layout"
+            android:textColor="#222222"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:stateListAnimator="@null" />
+
+    </LinearLayout>
+
+</LinearLayout>

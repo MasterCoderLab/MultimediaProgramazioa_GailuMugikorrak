@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Android robot berdearen ikono bektoriala. -->
+
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Robotaren antenak. -->
+    <path
+        android:strokeColor="#A4C639"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M16,7 L12,2 M32,7 L36,2" />
+
+    <!-- Robotaren burua. -->
+    <path
+        android:fillColor="#A4C639"
+        android:pathData="
+            M10,17
+            C10,9.8 16.3,6 24,6
+            C31.7,6 38,9.8 38,17
+            Z" />
+
+    <!-- Robotaren begiak. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M17,12
+            A1.5,1.5 0,1 0,20 12
+            A1.5,1.5 0,1 0,17 12
+            Z
+            M28,12
+            A1.5,1.5 0,1 0,31 12
+            A1.5,1.5 0,1 0,28 12
+            Z" />
+
+    <!-- Robotaren gorputza. -->
+    <path
+        android:fillColor="#A4C639"
+        android:pathData="
+            M10,20 H38 V34
+            C38,36 36,38 34,38
+            H14
+            C12,38 10,36 10,34
+            Z" />
+
+    <!-- Ezkerreko eta eskuineko besoak. -->
+    <path
+        android:fillColor="#A4C639"
+        android:pathData="
+            M5,20
+            C3.5,20 3,21.5 3,23
+            V32
+            C3,35 7,35 7,32
+            V23
+            C7,21.5 6.5,20 5,20
+            Z
+            M43,20
+            C41.5,20 41,21.5 41,23
+            V32
+            C41,35 45,35 45,32
+            V23
+            C45,21.5 44.5,20 43,20
+            Z" />
+
+    <!-- Robotaren hankak. -->
+    <path
+        android:fillColor="#A4C639"
+        android:pathData="
+            M15,36 H21 V43
+            C21,47 15,47 15,43
+            Z
+            M27,36 H33 V43
+            C33,47 27,47 27,43
+            Z" />
+
+</vector>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Aplikazioaren izena. -->
+    <string name="app_name">Toast Android</string>
+
+    <!-- Hiru botoien testuak. -->
+    <string name="botoi_defecto">Toast - Defektuz</string>
+    <string name="botoi_gravity">Toast - Gravity</string>
+    <string name="botoi_layout">Toast - Pertsonalizatua</string>
+
+    <!-- Jakinarazpenen mezuak. -->
+    <string name="toast_defecto">Toast por defecto</string>
+    <string name="toast_gravity">Toast con gravity</string>
+    <string name="toast_personalizado">Toast Personalizado</string>
+
+</resources>

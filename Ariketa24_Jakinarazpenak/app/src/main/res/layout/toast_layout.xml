@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Toast pertsonalizatuaren diseinu klasikoa. -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="#555555"
+    android:padding="5dp">
+
+    <!-- Kokapen-markatzaile gorria. -->
+    <ImageView
+        android:id="@+id/imgIcono"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/marcador"
+        android:contentDescription="@null" />
+
+    <!-- Toast jakinarazpenaren testua. -->
+    <TextView
+        android:id="@+id/txtMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+</LinearLayout>
