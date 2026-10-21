@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aplikazioaren eta eremuen testuak euskaraz. -->
+    <string name="app_name">Ikaslearen Kalifikazioa</string>
+    <string name="ikaslearen_irudia_azalpena">Ikaslearen silueta</string>
+    <string name="ikaslea_etiketa">Ikaslea:</string>
+    <string name="ikaslea_iradokizuna">Izena</string>
+    <string name="nota_etiketa">Kalifikazioa:</string>
+    <string name="nota_iradokizuna">0 - 20</string>
+    <string name="garbitu">GARBITU</string>
+    <string name="erakutsi">ERAKUTSI</string>
+    <!-- Datuak baliozkotzean agertzen diren mezuak. -->
+    <string name="errorea_ikaslea">Sartu ikaslearen izena.</string>
+    <string name="errorea_nota_hutsa">Sartu ikaslearen nota.</string>
+    <string name="errorea_nota_formatua">Sartu baliozko zenbaki bat.</string>
+    <string name="errorea_nota_tartea">Notak 0 eta 20 artean egon behar du.</string>
+    <!-- Kalifikazio-mailak. -->
+    <string name="txarra">Txarra</string>
+    <string name="erdipurdikoa">Erdipurdikoa</string>
+    <string name="ona">Ona</string>
+    <string name="oso_ona">Oso Ona</string>
+    <string name="bikaina">Bikaina</string>
+    <!-- Erakusteko elkarrizketaren testua. -->
+    <string name="emaitzaren_izenburua">Kalifikazioaren emaitza</string>
+    <string name="emaitzaren_mezua">Ikaslea: %1$s\nNota: %2$s\nKalifikazioa: %3$s</string>
+    <string name="adostu">Ados</string>
+</resources>

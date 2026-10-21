@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ikaslearen kalifikazioaren pantaila, irakaslearen ereduari jarraituz. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Sistemaren egoera-barraren atzealde iluna. -->
+    <View
+        android:id="@+id/fondoBarraEstado"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="#212121" />
+
+    <!-- Pantailaren goiko izenburua: jatorrizko adibideko urdinarekin. -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="#3F51B5"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <!-- Pantaila txikietan edukia mugitzeko aukera eskaintzen da. -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <!-- Ikaslearen irudia XML bektorial batekin marraztuta. -->
+            <ImageView
+                android:id="@+id/imgIkaslea"
+                android:layout_width="144dp"
+                android:layout_height="144dp"
+                android:layout_marginBottom="22dp"
+                android:src="@drawable/ikaslearen_irudia"
+                android:contentDescription="@string/ikaslearen_irudia_azalpena" />
+
+            <!-- Izena sartzeko eremua. -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="18dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ikaslea_etiketa"
+                    android:textSize="20sp"
+                    android:textColor="#212121" />
+
+                <EditText
+                    android:id="@+id/edtIkaslea"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:minHeight="48dp"
+                    android:singleLine="true"
+                    android:inputType="textPersonName"
+                    android:hint="@string/ikaslea_iradokizuna"
+                    android:textColor="#212121"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- Nota hamartarra sartzeko eremua. -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:layout_marginEnd="12dp"
+                    android:text="@string/nota_etiketa"
+                    android:textSize="20sp"
+                    android:textColor="#212121" />
+
+                <EditText
+                    android:id="@+id/edtNota"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:singleLine="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:hint="@string/nota_iradokizuna"
+                    android:textColor="#212121"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- Garbitu eta erakutsi ekintzak. -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end|center_vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnGarbitu"
+                    android:layout_width="112dp"
+                    android:layout_height="52dp"
+                    android:layout_marginEnd="12dp"
+                    android:background="@drawable/botoi_urdina"
+                    android:backgroundTint="@null"
+                    app:backgroundTint="@null"
+                    android:text="@string/garbitu"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:stateListAnimator="@null" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnErakutsi"
+                    android:layout_width="112dp"
+                    android:layout_height="52dp"
+                    android:background="@drawable/botoi_urdina"
+                    android:backgroundTint="@null"
+                    app:backgroundTint="@null"
+                    android:text="@string/erakutsi"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:stateListAnimator="@null" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

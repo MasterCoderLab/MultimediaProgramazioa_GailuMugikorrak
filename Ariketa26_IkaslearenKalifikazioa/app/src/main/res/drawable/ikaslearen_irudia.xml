@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ikaslearen irudi grisa, kanpoko PNG fitxategirik gabe. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="144dp"
+    android:height="144dp"
+    android:viewportWidth="144"
+    android:viewportHeight="144">
+    <!-- Atzeko karratu argia. -->
+    <path android:fillColor="#F5F5F5" android:pathData="M0,0 H144 V144 H0 Z" />
+    <!-- Burua. -->
+    <path android:fillColor="#CFCFCF"
+        android:pathData="M72,30 a24,24 0,1 1,0 48 a24,24 0,1 1,0 -48" />
+    <!-- Sorbaldak eta gorputzaren silueta. -->
+    <path android:fillColor="#CFCFCF"
+        android:pathData="M32,114 C32,91 50,75 72,75 C94,75 112,91 112,114 Z" />
+</vector>
