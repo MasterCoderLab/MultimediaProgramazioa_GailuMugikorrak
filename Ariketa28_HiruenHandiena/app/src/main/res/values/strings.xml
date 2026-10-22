@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pantaila eta mezu guztiak euskaraz. -->
+    <string name="app_name">Hiruen handiena</string>
+    <string name="izenburua">Zenbakirik handiena</string>
+    <string name="lehena_etiketa">1. zenbakia:</string>
+    <string name="bigarrena_etiketa">2. zenbakia:</string>
+    <string name="hirugarrena_etiketa">3. zenbakia:</string>
+    <string name="erakutsi">ERAKUTSI</string>
+    <string name="errorea_hutsa">Sartu zenbakia.</string>
+    <string name="errorea_formatua">Sartu baliozko zenbaki oso bat (long).</string>
+    <string name="emaitza_handiena">Zenbakirik handiena: %1$d</string>
+</resources>
