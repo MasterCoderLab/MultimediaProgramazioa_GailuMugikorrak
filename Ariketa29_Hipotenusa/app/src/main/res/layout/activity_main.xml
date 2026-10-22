@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ariketa 29: hipotenusa kalkulatzeko pantaila, irakaslearen ereduari jarraituz. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Egoera-barraren atzealde iluna. -->
+    <View
+        android:id="@+id/fondoBarraEstado"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="#212121" />
+
+    <!-- Irakaslearen adibidearen goiburu urdina. -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical"
+        android:background="#3F51B5"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="26dp">
+
+            <!-- Triangelu angeluzuzena bektore-irudi batekin marraztuta. -->
+            <FrameLayout
+                android:layout_width="250dp"
+                android:layout_height="210dp"
+                android:layout_marginBottom="8dp">
+                <ImageView
+                    android:id="@+id/imgTriangelua"
+                    android:layout_width="250dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/triangelu_angeluzuzena"
+                    android:contentDescription="@string/triangelu_azalpena" />
+                <!-- Aldeetako etiketak: a = hipotenusa, b eta c = katetoak. -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="151dp"
+                    android:layout_marginTop="89dp"
+                    android:text="a"
+                    android:textColor="#006B9E"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="121dp"
+                    android:layout_marginTop="171dp"
+                    android:text="b"
+                    android:textColor="#006B9E"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="100dp"
+                    android:text="c"
+                    android:textColor="#006B9E"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <!-- C katetoa, pantailako adibidean bezala lehenengo. -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end|center_vertical"
+                android:layout_marginBottom="14dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="14dp"
+                    android:labelFor="@id/edtKatetoC"
+                    android:text="@string/kateto_c"
+                    android:textColor="#212121"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/edtKatetoC"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:singleLine="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:hint="@string/kateto_iradokizuna"
+                    android:textColor="#212121"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- B katetoa. -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end|center_vertical"
+                android:layout_marginBottom="14dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="14dp"
+                    android:labelFor="@id/edtKatetoB"
+                    android:text="@string/kateto_b"
+                    android:textColor="#212121"
+                    android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/edtKatetoB"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:singleLine="true"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:hint="@string/kateto_iradokizuna"
+                    android:textColor="#212121"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- GARBITU eta KALKULATU botoiak. -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end|center_vertical">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnGarbitu"
+                    android:layout_width="112dp"
+                    android:layout_height="52dp"
+                    android:layout_marginEnd="12dp"
+                    android:background="@drawable/botoi_urdina"
+                    android:backgroundTint="@null"
+                    app:backgroundTint="@null"
+                    android:stateListAnimator="@null"
+                    android:text="@string/garbitu"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnKalkulatu"
+                    android:layout_width="124dp"
+                    android:layout_height="52dp"
+                    android:background="@drawable/botoi_urdina"
+                    android:backgroundTint="@null"
+                    app:backgroundTint="@null"
+                    android:stateListAnimator="@null"
+                    android:text="@string/kalkulatu"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- Kalkuluaren emaitza baliozko sarreretan bakarrik erakusten da. -->
+            <TextView
+                android:id="@+id/txtEmaitza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:textColor="#212121"
+                android:textSize="19sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aplikazio osoa euskaraz. -->
+    <string name="app_name">Hipotenusa</string>
+    <string name="triangelu_azalpena">Triangelu angeluzuzena: a hipotenusa da, b eta c katetoak dira</string>
+    <string name="kateto_b">b katetoa:</string>
+    <string name="kateto_c">c katetoa:</string>
+    <string name="kateto_iradokizuna">0 baino handiagoa</string>
+    <string name="garbitu">GARBITU</string>
+    <string name="kalkulatu">KALKULATU</string>
+    <string name="errorea_hutsa">Sartu katetoaren luzera.</string>
+    <string name="errorea_formatua">Sartu baliozko zenbaki bat.</string>
+    <string name="errorea_positiboa">Katetoak 0 baino handiagoak izan behar dira.</string>
+    <string name="errorea_kalkulua">Emaitza handiegia da kalkulatzeko.</string>
+    <string name="emaitza_hipotenusa">Hipotenusa: %1$s</string>
+</resources>
