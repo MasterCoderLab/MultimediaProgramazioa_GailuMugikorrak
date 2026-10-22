@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aplikazioaren testu guztiak euskaraz. -->
+    <string name="app_name">Eragiketen kalkulagailua</string>
+    <string name="batuketa">Batuketa</string>
+    <string name="kenketa">Kenketa</string>
+    <string name="biderketa">Biderketa</string>
+    <string name="zatiketa">Zatiketa</string>
+    <string name="lehen_zenbakia">1. zenbakia:</string>
+    <string name="bigarren_zenbakia">2. zenbakia:</string>
+    <string name="zenbaki_iradokizuna">Adib. 12</string>
+    <string name="garbitu">GARBITU</string>
+    <string name="kalkulatu">KALKULATU</string>
+    <string name="emaitza">Emaitza: %1$s</string>
+    <string name="errorea_hutsa">Sartu zenbaki bat.</string>
+    <string name="errorea_naturala">Sartu baliozko zenbaki natural bat (0 edo handiagoa).</string>
+    <string name="errorea_eragiketa">Hautatu eragiketa bat.</string>
+    <string name="errorea_zero_zatiketa">Ezin da zerorekin zatitu.</string>
+    <string name="errorea_kalkulua">Ezin izan da emaitza kalkulatu.</string>
+</resources>
