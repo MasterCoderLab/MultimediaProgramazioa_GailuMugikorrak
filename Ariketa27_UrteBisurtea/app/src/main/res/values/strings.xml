@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pantailako testu guztiak euskaraz. -->
+    <string name="app_name">Urte bisurtea</string>
+    <string name="izenburua">Urte bisurtea</string>
+    <string name="urtea_etiketa">Urtea:</string>
+    <string name="urtea_iradokizuna">Urtea</string>
+    <string name="egiaztatu">EGIAZTATU</string>
+    <!-- Baliozkotze-mezuak. -->
+    <string name="errorea_hutsa">Sartu urtea.</string>
+    <string name="errorea_formatua">Sartu baliozko urte oso bat.</string>
+    <string name="errorea_tartea">Urteak 0 baino handiagoa izan behar du.</string>
+    <!-- Emaitza. -->
+    <string name="emaitza_bisurtea">%1$d. urtea bisurtea da.</string>
+    <string name="emaitza_ez_bisurtea">%1$d. urtea ez da bisurtea.</string>
+</resources>

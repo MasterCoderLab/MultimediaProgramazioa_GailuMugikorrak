@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ariketa 27: irakaslearen pantailaren egitura, euskaraz. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Android egoera-barraren kolore iluna. -->
+    <View
+        android:id="@+id/fondoBarraEstado"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="#212121" />
+
+    <!-- Irakaslearen adibideko goiburua. -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical"
+        android:background="#3F51B5"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <!-- Pantaila txikietan ere eduki guztia ikusi ahal izateko. -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp">
+
+            <!-- Ariketaren izenburua. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="@string/izenburua"
+                android:textColor="#212121"
+                android:textSize="24sp" />
+
+            <!-- Urte osoa sartzeko eremua. -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end|center_vertical"
+                android:layout_marginBottom="14dp">
+
+                <TextView
+                    android:id="@+id/lblUrtea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="14dp"
+                    android:labelFor="@id/edtUrtea"
+                    android:text="@string/urtea_etiketa"
+                    android:textColor="#212121"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtUrtea"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:inputType="numberSigned"
+                    android:singleLine="true"
+                    android:hint="@string/urtea_iradokizuna"
+                    android:textColor="#212121"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- Egiaztatzeko botoi urdina. -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEgiaztatu"
+                android:layout_width="124dp"
+                android:layout_height="52dp"
+                android:layout_gravity="end"
+                android:background="@drawable/botoi_urdina"
+                android:backgroundTint="@null"
+                app:backgroundTint="@null"
+                android:stateListAnimator="@null"
+                android:text="@string/egiaztatu"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <!-- Egiaztapenaren ondoren bakarrik agertzen den emaitza. -->
+            <TextView
+                android:id="@+id/txtEmaitza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:textColor="#212121"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
