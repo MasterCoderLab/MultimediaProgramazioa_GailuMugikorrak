@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Erabiltzaileari erakusten zaizkion mezu guztiak euskaraz. -->
+    <string name="app_name">Jardueren komunikazioa</string>
+    <string name="izena_etiketa">Izena:</string>
+    <string name="izena_iradokizuna">Sartu izena</string>
+    <string name="egiaztatu">EGIAZTATU</string>
+    <string name="errorea_izena">Sartu izen bat.</string>
+    <string name="hasierako_agurra">Kaixo</string>
+    <string name="agur_mezua">Kaixo %1$s</string>
+</resources>
