@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aplikazioko testuak euskaraz, Java eta XML fitxategietan errepikatu gabe. -->
+    <string name="app_name">Jardueren komunikazioa 2</string>
+    <string name="izena_etiketa">Izena:</string>
+    <string name="izena_iradokizuna">Sartu izena</string>
+    <string name="egiaztatu">EGIAZTATU</string>
+    <string name="errorea_izena">Sartu izen bat.</string>
+    <string name="hasierako_emaitza">Emaitza:</string>
+    <string name="emaitza_mezua">Emaitza: %1$s</string>
+    <string name="hasierako_galdera">Baldintzak onartzen dituzu?</string>
+    <string name="baldintzen_galdera">Kaixo %1$s. Baldintzak onartzen dituzu?</string>
+    <string name="onartu_botoia">ONARTU</string>
+    <string name="baztertu_botoia">BAZTERTU</string>
+    <string name="onartua">Onartua</string>
+    <string name="baztertua">Baztertua</string>
+</resources>
