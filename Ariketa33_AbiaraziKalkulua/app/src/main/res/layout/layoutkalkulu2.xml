@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Jasotako izena, biderkatzeko eremua eta emaitza. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bigarrenPantaila"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#101010"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="12dp"
+        android:background="#464646"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtErabiltzailea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="12dp"
+        android:paddingTop="14dp"
+        android:text="@string/erabiltzaile_hutsik"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtZenbakiaEtiketa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="12dp"
+        android:paddingTop="14dp"
+        android:labelFor="@id/edtZenbakia"
+        android:text="@string/zenbakia_etiketa"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtZenbakia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginHorizontal="12dp"
+        android:hint="@string/zenbakia_iradokizuna"
+        android:inputType="numberDecimal|numberSigned"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0B0B0" />
+
+    <TextView
+        android:id="@+id/txtEmaitza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="12dp"
+        android:paddingTop="14dp"
+        android:text="@string/emaitza_hutsik"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBikoiztu"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/bikoiztu_botoia" />
+</LinearLayout>

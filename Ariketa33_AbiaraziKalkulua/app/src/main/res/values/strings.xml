@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pantailan erabiltzen diren testuak euskaraz. -->
+    <string name="app_name">Kalkulua</string>
+    <string name="izena_etiketa">Izena:</string>
+    <string name="izena_iradokizuna">Sartu zure izena</string>
+    <string name="kalkulatu_botoia">KALKULATU</string>
+    <string name="irten_botoia">IRTEN</string>
+    <string name="izena_derrigorrezkoa">Zure izena idatzi behar duzu.</string>
+    <string name="erabiltzaile_hutsik">Erabiltzailea:</string>
+    <string name="erabiltzaile_mezua">Erabiltzailea: %1$s</string>
+    <string name="zenbakia_etiketa">Zenbakia:</string>
+    <string name="zenbakia_iradokizuna">Sartu zenbaki bat</string>
+    <string name="zenbakia_derrigorrezkoa">Sartu zenbaki bat.</string>
+    <string name="zenbakia_baliogabea">Sartu baliozko zenbaki bat.</string>
+    <string name="emaitza_hutsik">Emaitza:</string>
+    <string name="emaitza_mezua">Emaitza: %1$s</string>
+    <string name="bikoiztu_botoia">BIKOIZTU (×2)</string>
+</resources>
