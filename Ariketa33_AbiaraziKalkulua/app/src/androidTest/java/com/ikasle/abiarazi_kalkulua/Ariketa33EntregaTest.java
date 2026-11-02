@@ -142,6 +142,12 @@ public class Ariketa33EntregaTest {
             ondo("Zenbaki hutsa: kalkulua gelditu eta errorea erakusten da");
             kaptura("04_Zenbaki_Hutsa_Errorea.png");
 
+            // Baliozko proba hasi aurretik, errorearen leihoa atzean uzteko berriro ireki.
+            pressBack();
+            onView(withId(R.id.btnKalkulatu)).perform(click());
+            onView(withId(R.id.txtErabiltzailea))
+                    .check(matches(withText("Erabiltzailea: Ane")));
+
             onView(withId(R.id.edtZenbakia)).perform(replaceText("25"), closeSoftKeyboard());
             kaptura("05_Zenbakia_25.png");
             onView(withId(R.id.btnBikoiztu)).perform(click());
