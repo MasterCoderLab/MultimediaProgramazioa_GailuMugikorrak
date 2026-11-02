@@ -20,7 +20,7 @@
 
 ## Erabaki teknikoak
 
-- Kalkulua `BigDecimal` erabiliz egiten da, zenbaki oso eta hamartarrak onartzeko.
+- Kalkulua `double` erabiliz egiten da, zenbaki oso eta hamartarrak onartzeko.
 - Zenbakirik ez badago, `setError()` erabiliz jakinarazten da.
 - `IRTEN` botoiak lehen jarduera ixten du (`finish()`).
 - Testu guztiak `strings.xml` fitxategian bildu dira.
