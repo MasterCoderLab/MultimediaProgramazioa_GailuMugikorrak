@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aplikazioaren mezuak euskaraz. -->
+    <string name="app_name">AbiaraziJarduera</string>
+    <string name="produktuaren_izena">Produktua:</string>
+    <string name="produktuaren_izena_hint">Sartu produktuaren izena</string>
+    <string name="zenbatekoa_etiketa">Hasierako zenbatekoa:</string>
+    <string name="zenbatekoa_hint">Sartu zenbatekoa</string>
+    <string name="bez_botoia">+BEZ</string>
+    <string name="produktua_derrigorrezkoa">Sartu produktuaren izena.</string>
+    <string name="zenbatekoa_derrigorrezkoa">Sartu zenbatekoa.</string>
+    <string name="zenbatekoa_baliogabea">Sartu baliozko zenbatekoa.</string>
+    <string name="produktua_mezua">Produktua: %1$s</string>
+    <string name="bez_aukeratu">Aukeratu aplikatu beharreko BEZa:</string>
+    <string name="bez_4">4 %</string>
+    <string name="bez_10">10 %</string>
+    <string name="bez_21">21 %</string>
+    <string name="guztira_hasiera">Guztira:</string>
+    <string name="guztira_mezua">Guztira: %1$s €</string>
+</resources>
