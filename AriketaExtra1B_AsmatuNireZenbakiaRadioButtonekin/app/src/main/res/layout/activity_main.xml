@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Zenbaki-jokoa: bi RadioButton RadioGroup berean, aukera bakarra egiteko. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#101010"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="12dp"
+        android:background="#464646"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="16dp"
+        android:labelFor="@id/edtZenbakia"
+        android:text="@string/zenbakia_eskatu"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtZenbakia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        android:gravity="center"
+        android:hint="@string/zenbakia_hint"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0B0B0" />
+
+    <!-- RadioGroup-ek hautapen bakarra bermatzen du, Java gehigarririk gabe. -->
+    <RadioGroup
+        android:id="@+id/rgAukerak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbHamarSaiakera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:checked="true"
+            android:text="@string/hamar_saiakera"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/rbLaguntza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:minHeight="48dp"
+            android:text="@string/laguntza"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnEgiaztatu"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/egiaztatu" />
+
+    <TextView
+        android:id="@+id/txtMezua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:paddingHorizontal="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</LinearLayout>

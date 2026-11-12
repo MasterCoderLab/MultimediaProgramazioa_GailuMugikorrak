@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Jokoaren mezuak euskaraz. -->
+    <string name="app_name">Asmatu nire zenbakia</string>
+    <string name="zenbakia_eskatu">Sartu 0 eta 100 arteko zenbaki bat:</string>
+    <string name="zenbakia_hint">Zenbakia (0–100)</string>
+    <string name="hamar_saiakera">10 saiakera</string>
+    <string name="laguntza">Laguntza</string>
+    <string name="egiaztatu">EGIAZTATU</string>
+    <string name="zenbakia_derrigorrezkoa">Sartu zenbaki bat.</string>
+    <string name="zenbakia_baliogabea">Sartu 0 eta 100 arteko zenbaki bat.</string>
+    <string name="ez_da_asmatu">Ez duzu asmatu.</string>
+    <string name="handiagoa">Ez duzu asmatu. Zenbaki sekretua handiagoa da.</string>
+    <string name="txikiagoa">Ez duzu asmatu. Zenbaki sekretua txikiagoa da.</string>
+    <string name="asmatuta">Zorionak! %1$d zenbakia asmatu duzu. Saiakerak: %2$d.</string>
+    <string name="muga_gaindituta">%1$d saiakera egin dituzu eta muga gainditu da. Zenbakia %2$d zen.</string>
+</resources>
