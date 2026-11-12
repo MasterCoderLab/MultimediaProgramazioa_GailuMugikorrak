@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Moodle-ko eredua: atzealde zuria, goiburu urdina eta sarrera azpimarra arrosa. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#4053AD"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="@string/izenburua"
+            android:textColor="#212121"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edtZenbakia"
+                android:text="@string/zenbakia_etiketa"
+                android:textColor="#212121"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtZenbakia"
+                android:layout_width="88dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#FF4081"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:singleLine="true"
+                android:textColor="#212121"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnExekutatu"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#4053AD"
+            android:text="@string/exekutatu"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtEmaitza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

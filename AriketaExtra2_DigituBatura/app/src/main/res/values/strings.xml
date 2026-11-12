@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Erabiltzailearen interfazea eta akats-mezuak euskaraz. -->
+    <string name="app_name">DigituBaturaApp</string>
+    <string name="izenburua">Digituen batura</string>
+    <string name="zenbakia_etiketa">Zenbakia:</string>
+    <string name="exekutatu">EXEKUTATU</string>
+    <string name="zenbakia_derrigorrezkoa">Sartu zenbaki oso bat.</string>
+    <string name="zenbakia_baliogabea">Sartutako zenbakia ez da int baliozkoa.</string>
+    <string name="emaitza">Emaitza: %1$d</string>
+</resources>

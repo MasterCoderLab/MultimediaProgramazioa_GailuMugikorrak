@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pantaila argia mantendu, Android sistemak gai iluna badu ere. -->
+    <style name="Theme.AriketaExtra2_DigituBatura" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#4053AD</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#212121</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+    </style>
+</resources>
