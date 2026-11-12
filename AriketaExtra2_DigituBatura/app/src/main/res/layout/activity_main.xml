@@ -63,13 +63,14 @@
 
         <Button
             android:id="@+id/btnExekutatu"
-            android:layout_width="100dp"
+            android:layout_width="144dp"
             android:layout_height="50dp"
             android:layout_gravity="end"
             android:layout_marginTop="12dp"
             android:backgroundTint="#4053AD"
             android:text="@string/exekutatu"
             android:textAllCaps="true"
+            android:maxLines="1"
             android:textColor="#FFFFFF" />
 
         <TextView
